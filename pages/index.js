@@ -3,7 +3,7 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <>
-      <nav className="flex items-center justify-between w-full h-20 lg:px-64">
+      <nav className="flex items-center justify-between w-full h-20 lg:px-96">
         <div className="flex items-center w-20 h-20 py-5 -mx-2 lg:w-4/12">
           <img src="/logo.png" alt="Zeitplan Logo" className="w-auto h-auto px-2"/>
           <h3 className="px-2 text-2xl font-bold">ZEITPLAN</h3>
@@ -37,7 +37,7 @@ export default function Home() {
         </div>
 
       </nav>
-      <main className="flex items-center justify-between my-20 lg:px-64">
+      <main className="flex items-center justify-between my-20 lg:px-96">
         <div className="w-1/2">
           <h1 className="font-serif text-6xl">The easiest way to manage college schedules</h1>
           <div className="mt-5 ">
